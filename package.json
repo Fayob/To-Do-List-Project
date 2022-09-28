@@ -1,0 +1,42 @@
+{
+  "name": "To-Do-List-Project",
+  "version": "1.0.0",
+  "description": "This project is based on html, css and javascript technology to build and design a To Do List project. The project was implemented with linters which make sure that some specific features are implemented successfully on the project for best user experience.",
+  "main": "index.js",
+  "dependencies": {
+    "babel-eslint": "^10.1.0",
+    "eslint": "^7.32.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-plugin-import": "^2.26.0",
+    "hint": "^7.1.2",
+    "stylelint": "^13.13.1",
+    "stylelint-csstree-validator": "^1.9.0",
+    "stylelint-config-standard": "^21.0.0",
+    "stylelint-scss": "^3.21.0"
+  },
+  "devDependencies": {
+    "css-loader": "^6.7.1",
+    "html-webpack-plugin": "^5.5.0",
+    "style-loader": "^3.3.1",
+    "webpack": "^5.74.0",
+    "webpack-cli": "^4.10.0",
+    "webpack-dev-server": "^4.11.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch": "webpack --watch",
+    "start": "webpack serve --open",
+    "build": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Fayob/To-Do-List-Project.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Fayob/To-Do-List-Project/issues"
+  },
+  "homepage": "https://github.com/Fayob/To-Do-List-Project#readme"
+}
