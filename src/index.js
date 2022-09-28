@@ -9,14 +9,14 @@ const dailyTasks = [
     index: 1,
   },
   {
+    description: 'fifth task',
+    completed: false,
+    index: 5,
+  },
+  {
     description: 'second task',
     completed: false,
     index: 2,
-  },
-  {
-    description: 'third task',
-    completed: false,
-    index: 3,
   },
   {
     description: 'fourth task',
@@ -24,11 +24,13 @@ const dailyTasks = [
     index: 4,
   },
   {
-    description: 'fifth task',
+    description: 'third task',
     completed: false,
-    index: 5,
+    index: 3,
   },
 ];
+
+dailyTasks.sort((a, b) => a.index - b.index);
 
 dailyTasks.forEach((task) => {
   const li = document.createElement('li');
