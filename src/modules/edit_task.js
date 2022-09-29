@@ -23,21 +23,7 @@ const editingTask = () => {
           window.location.reload();
         }
       });
-      // if (!ele.value) {
-      //   alert('Please enter a task')
-      // }
     });
-    // ele.addEventListener('change', () => {
-    //   console.log(ele.value);
-    //   tasks.forEach((task) => {
-    //     if (task.index === +ele.previousElementSibling.dataset.id) {
-    //       task.description = ele.textContent;
-    //       console.log(task.description);
-    //       console.log('hi');
-    //     }
-    //     localStorage.setItem('TODO', JSON.stringify(tasks));
-    //   });
-    // });
   });
 };
 

@@ -29,7 +29,6 @@ export const removeCompletedTasks = () => {
     localStorage.setItem('TODO', JSON.stringify(tasks));
 
     const nodeElement = Array.from(e.target.previousElementSibling.childNodes);
-    console.log(nodeElement);
     nodeElement.forEach((element) => {
       if (element.firstElementChild.lastElementChild.classList.contains('line-through')) {
         element.remove();
