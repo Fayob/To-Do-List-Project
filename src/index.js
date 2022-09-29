@@ -1,45 +1,13 @@
 import './style.css';
+import editingTask from './modules/edit_task.js';
+import removeSingleTask from './modules/remove_task.js';
+import addToLists from './modules/add_task.js';
+import renderLists from './modules/display_task.js';
 
-const ul = document.querySelector('.to_do_lists');
+renderLists();
 
-const dailyTasks = [
-  {
-    description: 'first task',
-    completed: false,
-    index: 1,
-  },
-  {
-    description: 'fifth task',
-    completed: false,
-    index: 5,
-  },
-  {
-    description: 'second task',
-    completed: false,
-    index: 2,
-  },
-  {
-    description: 'fourth task',
-    completed: false,
-    index: 4,
-  },
-  {
-    description: 'third task',
-    completed: false,
-    index: 3,
-  },
-];
+addToLists();
 
-dailyTasks.sort((a, b) => a.index - b.index);
+editingTask();
 
-dailyTasks.forEach((task) => {
-  const li = document.createElement('li');
-  li.classList.add('to_do_list');
-  li.innerHTML = `
-  <div>
-  <input type="checkbox" name="check" id="checks" />
-  ${task.description} </div>
-  <i class="fa fa-ellipsis-v"></i> 
-  `;
-  ul.appendChild(li);
-});
+removeSingleTask();
