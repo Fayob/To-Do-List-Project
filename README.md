@@ -44,7 +44,7 @@ Twitter: [@fabimworld2536](https://twitter.com/Fabimworld2536)
 LinkedIn: [@abimbola-ade](https://www.linkedin.com/in/abimbola-ade)
 
 ## Live Demo
-
+[checkout the live demo here](https://fayob.github.io/To-Do-List-Project/dist/)
 
 ## Contributing
 
