@@ -9,7 +9,7 @@ body {
 }
 
 .main_content {
-  max-width: 80%;
+  max-width: 60%;
   margin: 20vh auto;
   border: 1px solid black;
   background: white;
@@ -30,6 +30,10 @@ body {
 
 .input::placeholder {
   font-style: italic;
+}
+
+input:focus {
+  outline: none;
 }
 
 #checks {
