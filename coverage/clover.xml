@@ -1,23 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1665146739696" clover="3.2.0">
-  <project timestamp="1665146739697" name="All files">
-    <metrics statements="8" coveredstatements="7" conditionals="2" coveredconditionals="2" methods="3" coveredmethods="2" elements="13" coveredelements="11" complexity="0" loc="8" ncloc="8" packages="1" files="3" classes="3"/>
-    <file name="add-task.js" path="C:\Users\ADE FAVOUR\Desktop\Abimbola\Microverse\Program\module-2\To-Do-List-Project\src\modules\add-task.js">
-      <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
-      <line num="3" count="1" type="stmt"/>
-      <line num="4" count="3" type="stmt"/>
-      <line num="10" count="3" type="stmt"/>
-    </file>
-    <file name="remove-task.js" path="C:\Users\ADE FAVOUR\Desktop\Abimbola\Microverse\Program\module-2\To-Do-List-Project\src\modules\remove-task.js">
-      <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
-      <line num="3" count="1" type="stmt"/>
-      <line num="4" count="1" type="stmt"/>
-    </file>
-    <file name="storage.js" path="C:\Users\ADE FAVOUR\Desktop\Abimbola\Microverse\Program\module-2\To-Do-List-Project\src\modules\storage.js">
-      <metrics statements="3" coveredstatements="2" conditionals="2" coveredconditionals="2" methods="1" coveredmethods="0"/>
-      <line num="1" count="1" type="cond" truecount="2" falsecount="0"/>
-      <line num="3" count="1" type="stmt"/>
-      <line num="4" count="0" type="stmt"/>
-    </file>
+<coverage generated="1665149765602" clover="3.2.0">
+  <project timestamp="1665149765602" name="All files">
+    <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0" elements="0" coveredelements="0" complexity="0" loc="0" ncloc="0" packages="0" files="0" classes="0"/>
   </project>
 </coverage>
