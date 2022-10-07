@@ -1,7 +1,9 @@
+import getItems from './storage.js';
+
 const ul = document.querySelector('.to_do_lists');
 
 const renderLists = () => {
-  const tasks = JSON.parse(localStorage.getItem('TODO')) || [];
+  const tasks = getItems;
   tasks.forEach((task) => {
     const li = document.createElement('li');
     li.classList.add('to_do_list');
