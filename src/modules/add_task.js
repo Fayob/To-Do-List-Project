@@ -7,6 +7,9 @@ const addToLists = () => {
       if (!input.value) {
         input.setCustomValidity('Please enter a task');
         input.reportValidity();
+        setTimeout(() => {
+          window.location.reload();
+        }, 1200);
         return;
       }
 
