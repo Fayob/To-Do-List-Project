@@ -12,6 +12,9 @@ const editingTask = () => {
           if (!ele.value) {
             ele.setCustomValidity('Please enter a task');
             ele.reportValidity();
+            setTimeout(() => {
+              window.location.reload();
+            }, 1200);
             return;
           }
 
