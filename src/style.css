@@ -9,7 +9,7 @@ body {
 }
 
 .main_content {
-  max-width: 80%;
+  max-width: 70%;
   margin: 20vh auto;
   border: 1px solid black;
   background: white;
@@ -19,6 +19,10 @@ body {
   padding: 1rem;
   background: white;
   margin-bottom: 0.1rem;
+}
+
+input {
+  outline: none;
 }
 
 .input {

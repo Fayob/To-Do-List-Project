@@ -10,7 +10,8 @@ const editingTask = () => {
       ele.addEventListener('keypress', (e) => {
         if (e.key === 'Enter') {
           if (!ele.value) {
-            alert('Please enter a task');
+            ele.setCustomValidity('Please enter a task');
+            ele.reportValidity();
             return;
           }
 

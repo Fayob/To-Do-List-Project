@@ -5,7 +5,11 @@ const addToLists = () => {
     const tasks = JSON.parse(localStorage.getItem('TODO')) || [];
     if (e.key === 'Enter') {
       if (!input.value) {
-        alert('Please enter a task');
+        input.setCustomValidity('Please enter a task');
+        input.reportValidity();
+        setTimeout(() => {
+          window.location.reload();
+        }, 1200);
         return;
       }
 
